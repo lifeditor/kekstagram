@@ -57,7 +57,7 @@
         pictureObj.likes = window.util.generateRandom(Like.MIN, Like.MAX);
         pictureObj.comments = strings;
         pictureObj.description =
-      descriptions[window.util.generateRandom(0, descLength - 1)];
+          descriptions[window.util.generateRandom(0, descLength - 1)];
         pictures[i] = pictureObj;
       }
       return pictures;
